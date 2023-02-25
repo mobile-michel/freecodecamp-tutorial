@@ -1,0 +1,17 @@
+{
+  "name": "freecodecamp",
+  "version": "1.0.0",
+  "description": "## Article on freecodecamp.org published on 6 September 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy-img": "^3.0.0"
+  }
+}
