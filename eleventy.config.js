@@ -5,7 +5,7 @@ async function imageShortcode(src, alt, sizes) {
     widths: [300, 800, null],
     formats: ["avif", "jpeg"],
     urlPath: "/images/",
-    outputDir: "./public/images/"
+    outputDir: "./freecodecamp-tutorial/public/images/"
   });
 
   let imageAttributes = {
