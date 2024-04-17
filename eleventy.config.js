@@ -4,8 +4,8 @@ async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(`./src${src}`, {
     widths: [300, 800, null],
     formats: ["avif", "jpeg"],
-    urlPath: "/images/",
-    outputDir: "./freecodecamp-tutorial/public/images/"
+    urlPath: "/freecodecamp-tutorial/images/",
+    outputDir: "./public/images/"
   });
 
   let imageAttributes = {
