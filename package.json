@@ -1,17 +1,17 @@
 {
-  "name": "freecodecamp",
+  "name": "freecodecamp-tutorial",
   "version": "1.0.0",
-  "description": "## Article on freecodecamp.org published on 6 September 2022",
-  "main": "index.js",
+  "description": "Article on freecodecamp.org published on 6 September 2022",
+  "main": "eleventy.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx @11ty/eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy  --pathprefix 'freecodecamp-tutorial'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.0.0"
   }
 }
